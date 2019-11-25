@@ -1,13 +1,13 @@
-﻿namespace OdeToFood.Data.DomainClasses
+﻿using System.Collections.Generic;
+
+namespace OdeToFood.Data.DomainClasses
 {
-    public class Restaurant
+    public class Restaurant : Horeca
     {
-        public int Id { get; set; }
-
-        public string Name { get; set; }
-
-        public string City { get; set; }
-
-        public string Country { get; set; }
+        public override List<string> FoodList()
+        {
+            //TODO: api call to get food list
+            return null;
+        }
     }
 }
