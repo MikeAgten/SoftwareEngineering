@@ -5,6 +5,6 @@ namespace OdeToFood.Data.DomainClasses.ViewModels
     public class RestaurantReviewsViewModel
     {
         public Restaurant Restaurant { get; set; }
-        public List<Review> Reviews { get; set; }
+        public List<RestaurantReview> Reviews { get; set; }
     }
 }

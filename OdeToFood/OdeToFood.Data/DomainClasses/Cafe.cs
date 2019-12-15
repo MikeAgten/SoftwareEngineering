@@ -8,7 +8,8 @@ namespace OdeToFood.Data.DomainClasses
     {
         public override List<string> FoodList()
         {
-            return new List<string>() { "food4", "food5", "food6" };
+            //Call to Cafe's API to retrieve foodlist
+            return null;
         }
     }
 }

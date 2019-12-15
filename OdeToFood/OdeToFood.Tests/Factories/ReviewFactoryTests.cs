@@ -1,4 +1,5 @@
 ﻿using NUnit.Framework;
+using OdeToFood.Data.DomainClasses;
 using OdeToFood.Data.Factories;
 using OdeToFood.Tests.Builders;
 
@@ -19,10 +20,10 @@ namespace OdeToFood.Tests.Factories
         public void Create_ValidReview_CorrectlyMapped()
         {
             //Arrange
-            var editReviewVm = new EditReviewViewModelBuilder().Build();
+            var editReviewVm = new EditRestaurantReviewViewModelBuilder().Build();
             
             //Act
-            var review = _factory.Create(editReviewVm);
+            var review = (RestaurantReview) _factory.Create(editReviewVm);
 
             //Assert
             Assert.That(review, Is.Not.Null);

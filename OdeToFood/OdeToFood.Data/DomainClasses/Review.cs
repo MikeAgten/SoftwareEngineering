@@ -2,7 +2,7 @@
 
 namespace OdeToFood.Data.DomainClasses
 {
-    public class Review
+    public abstract class Review
     {
         public int Id { get; set; }
 
@@ -11,10 +11,9 @@ namespace OdeToFood.Data.DomainClasses
 
         public string Body { get; set; }
 
-        public int RestaurantId { get; set; }
-        public virtual Restaurant Restaurant { get; set; }
-
         [Required]
         public string ReviewerName { get; set; }
+     
+
     }
 }

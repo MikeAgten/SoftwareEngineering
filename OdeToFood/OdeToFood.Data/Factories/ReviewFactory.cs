@@ -7,12 +7,33 @@ namespace OdeToFood.Data.Factories
     {
         public Review Create(EditReviewViewModel editVm)
         {
-            Review review = new Review();
-            review.Body = editVm.Body;
-            review.Rating = editVm.Rating;
-            review.RestaurantId = editVm.RestaurantId;
-            review.ReviewerName = editVm.ReviewerName;
+            Review review;
+
+
+            if (editVm.GetType() == typeof(EditRestaurantReviewViewModel))
+            {
+                review = new RestaurantReview
+                {
+                    Body = editVm.Body,
+                    Rating = editVm.Rating,
+                    ReviewerName = editVm.ReviewerName,
+                    RestaurantId = editVm.HorecaId
+                };
+
+            }
+            else
+            {
+                review = new CafeReview
+                {
+                    Body = editVm.Body,
+                    Rating = editVm.Rating,
+                    ReviewerName = editVm.ReviewerName,
+                    CafeId = editVm.HorecaId
+                };
+            }
+
             return review;
+
         }
     }
 }

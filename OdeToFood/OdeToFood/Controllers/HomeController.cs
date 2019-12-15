@@ -13,13 +13,13 @@ namespace OdeToFood.Controllers
     public class HomeController : Controller
     {
         private IRestaurantsRepository _repos;
-        private IReviewsRepository _reviewsRepos;
+        private IRestaurantReviewsRepository _restaurantReviewsRepo;
         private IReviewFactory _reviewFactory;
 
-        public HomeController(IRestaurantsRepository repos, IReviewsRepository reviewRepos, IReviewFactory reviewFactory )
+        public HomeController(IRestaurantsRepository repos, IRestaurantReviewsRepository restaurantReviewsRepo, IReviewFactory reviewFactory )
         {
             _repos = repos;
-            _reviewsRepos = reviewRepos;
+            _restaurantReviewsRepo = restaurantReviewsRepo;
             _reviewFactory = reviewFactory;
         }
 
@@ -32,9 +32,11 @@ namespace OdeToFood.Controllers
         [HttpGet("Home/Details/{id}")]
         public async Task<ActionResult> Details(int id)
         {
-            RestaurantReviewsViewModel vm = new RestaurantReviewsViewModel();
-            vm.Restaurant = _repos.GetById(id);
-            vm.Reviews = await _reviewsRepos.GetReviewsByRestaurantAsync(id);
+            RestaurantReviewsViewModel vm = new RestaurantReviewsViewModel
+            {
+                Restaurant = _repos.GetById(id),
+                Reviews = await _restaurantReviewsRepo.GetReviewsByRestaurantAsync(id)
+            };
             return View(vm);
         }
 
@@ -50,13 +52,13 @@ namespace OdeToFood.Controllers
         {
             try
             {           
-                Review review = _reviewFactory.Create(vm);
+                RestaurantReview review = (RestaurantReview) _reviewFactory.Create(vm);
                 
-                var createdReview = await _reviewsRepos.AddAsync(review);
+                var createdReview = await _restaurantReviewsRepo.AddAsync(review);
                 // TODO: Add insert logic here
                 return RedirectToAction(nameof(Index));
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return View();
             }

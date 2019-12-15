@@ -11,7 +11,8 @@ namespace OdeToFood.Data
         {
 
         }
-        public DbSet<Review> Reviews { get; set; }
+        public DbSet<RestaurantReview> RestaurantReviews { get; set; }
+        public DbSet<CafeReview> CafeReviews { get; set; }
 
         public DbSet<Restaurant> Restaurants { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

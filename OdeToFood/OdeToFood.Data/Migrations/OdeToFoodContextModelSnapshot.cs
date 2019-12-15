@@ -15,7 +15,7 @@ namespace OdeToFood.Data.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "2.2.4-servicing-10062")
+                .HasAnnotation("ProductVersion", "2.2.6-servicing-10079")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -106,6 +106,45 @@ namespace OdeToFood.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("OdeToFood.Data.DomainClasses.Cafe", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("City");
+
+                    b.Property<string>("Country");
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Cafe");
+                });
+
+            modelBuilder.Entity("OdeToFood.Data.DomainClasses.CafeReview", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Body");
+
+                    b.Property<int>("CafeId");
+
+                    b.Property<int>("Rating");
+
+                    b.Property<string>("ReviewerName")
+                        .IsRequired();
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CafeId");
+
+                    b.ToTable("CafeReviews");
+                });
+
             modelBuilder.Entity("OdeToFood.Data.DomainClasses.Restaurant", b =>
                 {
                     b.Property<int>("Id")
@@ -132,7 +171,7 @@ namespace OdeToFood.Data.Migrations
                         });
                 });
 
-            modelBuilder.Entity("OdeToFood.Data.DomainClasses.Review", b =>
+            modelBuilder.Entity("OdeToFood.Data.DomainClasses.RestaurantReview", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -151,7 +190,7 @@ namespace OdeToFood.Data.Migrations
 
                     b.HasIndex("RestaurantId");
 
-                    b.ToTable("Reviews");
+                    b.ToTable("RestaurantReviews");
                 });
 
             modelBuilder.Entity("OdeToFood.Data.DomainClasses.Role", b =>
@@ -276,7 +315,15 @@ namespace OdeToFood.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
-            modelBuilder.Entity("OdeToFood.Data.DomainClasses.Review", b =>
+            modelBuilder.Entity("OdeToFood.Data.DomainClasses.CafeReview", b =>
+                {
+                    b.HasOne("OdeToFood.Data.DomainClasses.Cafe", "Cafe")
+                        .WithMany()
+                        .HasForeignKey("CafeId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("OdeToFood.Data.DomainClasses.RestaurantReview", b =>
                 {
                     b.HasOne("OdeToFood.Data.DomainClasses.Restaurant", "Restaurant")
                         .WithMany()

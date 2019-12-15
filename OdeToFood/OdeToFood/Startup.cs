@@ -27,7 +27,7 @@ namespace OdeToFood
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IRestaurantsRepository, RestaurantDbRepository>();
-            services.AddScoped<IReviewsRepository, ReviewsDbRepository>();
+            services.AddScoped<IRestaurantReviewsRepository, RestaurantReviewDbRepository>();
             services.AddScoped<IReviewFactory, ReviewFactory>();
 
             services.Configure<CookiePolicyOptions>(options =>

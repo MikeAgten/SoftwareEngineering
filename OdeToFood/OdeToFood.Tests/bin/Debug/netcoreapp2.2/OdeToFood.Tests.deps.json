@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "b0846b9382b3c212ab9a5d165d2d41c0a7609738"
+    "signature": ""
   },
   "compilationOptions": {},
   "targets": {
@@ -9,7 +9,6 @@
       "OdeToFood.Tests/1.0.0": {
         "dependencies": {
           "Microsoft.NET.Test.Sdk": "15.9.0",
-          "Microsoft.NETCore.App": "2.2.0",
           "Moq": "4.10.1",
           "NUnit3TestAdapter": "3.11.0",
           "OdeToFood": "1.0.0",
@@ -22,7 +21,6 @@
       },
       "Castle.Core/4.3.1": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
           "System.ComponentModel": "4.3.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
           "System.Diagnostics.TraceSource": "4.3.0",
@@ -129,30 +127,8 @@
           "Microsoft.TestPlatform.TestHost": "15.9.0"
         }
       },
-      "Microsoft.NETCore.App/2.2.0": {
-        "dependencies": {
-          "Microsoft.NETCore.DotNetHostPolicy": "2.2.0",
-          "Microsoft.NETCore.Platforms": "2.2.0",
-          "Microsoft.NETCore.Targets": "2.0.0",
-          "NETStandard.Library": "2.0.3"
-        }
-      },
-      "Microsoft.NETCore.DotNetAppHost/2.2.0": {},
-      "Microsoft.NETCore.DotNetHostPolicy/2.2.0": {
-        "dependencies": {
-          "Microsoft.NETCore.DotNetHostResolver": "2.2.0"
-        }
-      },
-      "Microsoft.NETCore.DotNetHostResolver/2.2.0": {
-        "dependencies": {
-          "Microsoft.NETCore.DotNetAppHost": "2.2.0"
-        }
-      },
-      "Microsoft.NETCore.Platforms/2.2.0": {},
-      "Microsoft.NETCore.Targets/2.0.0": {},
       "Microsoft.TestPlatform.ObjectModel/15.9.0": {
         "dependencies": {
-          "NETStandard.Library": "2.0.3",
           "System.ComponentModel.EventBasedAsync": "4.3.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
           "System.Diagnostics.Process": "4.3.0",
@@ -487,16 +463,10 @@
           }
         }
       },
-      "Microsoft.Win32.Primitives/4.3.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.2.0",
-          "Microsoft.NETCore.Targets": "2.0.0"
-        }
-      },
+      "Microsoft.Win32.Primitives/4.3.0": {},
       "Moq/4.10.1": {
         "dependencies": {
           "Castle.Core": "4.3.1",
-          "NETStandard.Library": "2.0.3",
           "System.Linq.Queryable": "4.3.0",
           "System.Reflection.TypeExtensions": "4.5.1"
         },
@@ -507,15 +477,7 @@
           }
         }
       },
-      "NETStandard.Library/2.0.3": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.2.0"
-        }
-      },
       "NuGet.Frameworks/4.7.0": {
-        "dependencies": {
-          "NETStandard.Library": "2.0.3"
-        },
         "runtime": {
           "lib/netstandard1.6/NuGet.Frameworks.dll": {
             "assemblyVersion": "4.7.0.5",
@@ -524,9 +486,6 @@
         }
       },
       "NUnit/3.11.0": {
-        "dependencies": {
-          "NETStandard.Library": "2.0.3"
-        },
         "runtime": {
           "lib/netstandard2.0/nunit.framework.dll": {
             "assemblyVersion": "3.11.0.0",
@@ -631,23 +590,8 @@
       },
       "System.Diagnostics.Process/4.3.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.2.0",
           "Microsoft.Win32.Primitives": "4.3.0",
           "System.Threading.ThreadPool": "4.3.0"
-        },
-        "runtimeTargets": {
-          "runtime/linux/lib/_._": {
-            "rid": "linux",
-            "assetType": "runtime"
-          },
-          "runtime/osx/lib/_._": {
-            "rid": "osx",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
         }
       },
       "System.Diagnostics.TextWriterTraceListener/4.0.0": {
@@ -655,21 +599,7 @@
           "System.Diagnostics.TraceSource": "4.3.0"
         }
       },
-      "System.Diagnostics.TraceSource/4.3.0": {
-        "dependencies": {
-          "Microsoft.NETCore.Platforms": "2.2.0"
-        },
-        "runtimeTargets": {
-          "runtime/unix/lib/_._": {
-            "rid": "unix",
-            "assetType": "runtime"
-          },
-          "runtime/win/lib/_._": {
-            "rid": "win",
-            "assetType": "runtime"
-          }
-        }
-      },
+      "System.Diagnostics.TraceSource/4.3.0": {},
       "System.Interactive.Async/3.2.0": {
         "runtime": {
           "lib/netstandard2.0/System.Interactive.Async.dll": {
@@ -794,48 +724,6 @@
       "path": "microsoft.net.test.sdk/15.9.0",
       "hashPath": "microsoft.net.test.sdk.15.9.0.nupkg.sha512"
     },
-    "Microsoft.NETCore.App/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-QU8taCyeyePwatrj+h+750lMnsPCq3YPaGmsdtSHXPCjDyjto2KT7QDNVet0oRliX4PjaINpyg0Yzd9DnQ/Wkw==",
-      "path": "microsoft.netcore.app/2.2.0",
-      "hashPath": "microsoft.netcore.app.2.2.0.nupkg.sha512"
-    },
-    "Microsoft.NETCore.DotNetAppHost/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-qIrVLupwT2NYTrf7KM7Nh+mJr36V5MITVRjyGOByVVCwGmQgQmI/6bjZYQv+QdExi4Cm87eCKJX9FdT6nc00Xg==",
-      "path": "microsoft.netcore.dotnetapphost/2.2.0",
-      "hashPath": "microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512"
-    },
-    "Microsoft.NETCore.DotNetHostPolicy/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-5Xvh/3bDr6YAl6TKfeONvRDZ9QOmvVmzFzA0M6g8uubWdf5/o6qdVOqByFBT/fhjVb6okP0E5+v1oxh1Pk+c+w==",
-      "path": "microsoft.netcore.dotnethostpolicy/2.2.0",
-      "hashPath": "microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512"
-    },
-    "Microsoft.NETCore.DotNetHostResolver/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Q3j3KC2ugqIVasf7pO4NRDEn7GysZX3ZH6fAHfbjrP8cYXY9cmHeFcbaniw36q8kFhsPt2EnRHzSsLBpbG6l2Q==",
-      "path": "microsoft.netcore.dotnethostresolver/2.2.0",
-      "hashPath": "microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512"
-    },
-    "Microsoft.NETCore.Platforms/2.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-39+GVHdbm+cmoOjdvm+fhiMbddnuVyUlBdYS8Yhn5xsNaBoTXpgBsxQQlI2Sv9EjIP0F+itG6yrDaOM2OEGupQ==",
-      "path": "microsoft.netcore.platforms/2.2.0",
-      "hashPath": "microsoft.netcore.platforms.2.2.0.nupkg.sha512"
-    },
-    "Microsoft.NETCore.Targets/2.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-odP/tJj1z6GylFpNo7pMtbd/xQgTC3Ex2If63dRTL38bBNMwsBnJ+RceUIyHdRBC0oik/3NehYT+oECwBhIM3Q==",
-      "path": "microsoft.netcore.targets/2.0.0",
-      "hashPath": "microsoft.netcore.targets.2.0.0.nupkg.sha512"
-    },
     "Microsoft.TestPlatform.ObjectModel/15.9.0": {
       "type": "package",
       "serviceable": true,
@@ -919,13 +807,6 @@
       "sha512": "sha512-9VA2mB8JELXG0aDGABn2UlHB0hB8E9LFriDt4ukeS1noCEzEkQ0wpDo+w1qJxLYyhY+Z3Kf+2OgbebFL9XtLjg==",
       "path": "moq/4.10.1",
       "hashPath": "moq.4.10.1.nupkg.sha512"
-    },
-    "NETStandard.Library/2.0.3": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
-      "path": "netstandard.library/2.0.3",
-      "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
     "NuGet.Frameworks/4.7.0": {
       "type": "package",
