@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {
+    ".NETCoreApp,Version=v2.2": {
       "Castle.Core/4.4.0": {
         "type": "package",
         "dependencies": {
@@ -10387,7 +10387,7 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": [
+    ".NETCoreApp,Version=v2.2": [
       "Microsoft.AspNetCore.Mvc.Abstractions >= 2.2.0",
       "Microsoft.AspNetCore.Mvc.ViewFeatures >= 2.2.0",
       "Microsoft.NET.Test.Sdk >= 16.4.0",
@@ -10424,14 +10424,14 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.0"
+        "netcoreapp2.2"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.2": {
           "projectReferences": {
             "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
               "projectPath": "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
@@ -10449,7 +10449,7 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.0": {
+      "netcoreapp2.2": {
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Abstractions": {
             "target": "Package",
@@ -10494,17 +10494,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.0.1, 3.0.1]"
-          }
-        ],
-        "frameworkReferences": {
-          "Microsoft.NETCore.App": {
-            "privateAssets": "all"
-          }
-        },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
