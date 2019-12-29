@@ -132,7 +132,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.4.0, )"
+              "version": "[15.8.0, )"
             },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
