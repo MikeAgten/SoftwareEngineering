@@ -39,7 +39,6 @@ C:\Users\gille\source\repos\SoftwareEngineering\OdeToFood\OdeToFood.Data\obj\Deb
 C:\Users\gille\source\repos\SoftwareEngineering\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp2.2\OdeToFood.Data.csproj.CopyComplete
 C:\Users\gille\source\repos\SoftwareEngineering\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp2.2\OdeToFood.Data.dll
 C:\Users\gille\source\repos\SoftwareEngineering\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp2.2\OdeToFood.Data.pdb
-C:\Users\11500418\Documents\school\software_eng\SoftwareEngineering\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp2.2\OdeToFood.Data.csprojAssemblyReference.cache
 C:\Users\11500418\Documents\school\software_eng\SoftwareEngineering\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp2.2\OdeToFood.Data.AssemblyInfoInputs.cache
 C:\Users\11500418\Documents\school\software_eng\SoftwareEngineering\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp2.2\OdeToFood.Data.AssemblyInfo.cs
 C:\Users\11500418\Documents\school\software_eng\SoftwareEngineering\OdeToFood\OdeToFood.Data\obj\Debug\netcoreapp2.2\OdeToFood.Data.dll
