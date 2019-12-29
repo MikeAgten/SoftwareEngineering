@@ -28,7 +28,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- script: dotnet test <test-project> --logger trx
+- script: dotnet test 
 - task: PublishTestResults@2
   condition: succeededOrFailed()
   inputs:
