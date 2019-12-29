@@ -65,7 +65,6 @@ C:\Users\11500418\Documents\school\software_eng\SoftwareEngineering\OdeToFood\Od
 C:\Users\11500418\Documents\school\software_eng\SoftwareEngineering\OdeToFood\OdeToFood.Tests\obj\Debug\netcoreapp2.2\OdeToFood.Tests.csproj.CopyComplete
 C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
 C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
-C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
 C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\bin\Debug\netcoreapp2.2\OdeToFood.Views.dll
 C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\bin\Debug\netcoreapp2.2\OdeToFood.Views.pdb
 C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\bin\Debug\netcoreapp2.2\appsettings.Development.json
@@ -86,3 +85,5 @@ C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Te
 C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\obj\Debug\netcoreapp2.2\OdeToFood.Tests.csproj.CopyComplete
 C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\obj\Debug\netcoreapp2.2\OdeToFood.Tests.dll
 C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\obj\Debug\netcoreapp2.2\OdeToFood.Tests.pdb
+C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\bin\Debug\netcoreapp2.2\nunit.engine.dll
+C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\bin\Debug\netcoreapp2.2\nunit.engine.api.dll

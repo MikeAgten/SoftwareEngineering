@@ -3235,6 +3235,9 @@
           "build/NUnit.props": {}
         }
       },
+      "NUnit.ConsoleRunner/3.10.0": {
+        "type": "package"
+      },
       "NUnit3TestAdapter/3.15.1": {
         "type": "package",
         "dependencies": {
@@ -9054,6 +9057,32 @@
         "nunit.nuspec"
       ]
     },
+    "NUnit.ConsoleRunner/3.10.0": {
+      "sha512": "NBnFgApGC7+nP688/j033CYTqTfwnIx0wqjrODtoznwZ2lxKqvLxjxNsO9XstgmC5sUBSU2QsLVYd/9IJueMDQ==",
+      "type": "package",
+      "path": "nunit.consolerunner/3.10.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "CHANGES.txt",
+        "LICENSE.txt",
+        "NOTICES.txt",
+        "nunit.consolerunner.3.10.0.nupkg.sha512",
+        "nunit.consolerunner.nuspec",
+        "tools/Mono.Cecil.dll",
+        "tools/nunit-agent-x86.exe",
+        "tools/nunit-agent-x86.exe.config",
+        "tools/nunit-agent.exe",
+        "tools/nunit-agent.exe.config",
+        "tools/nunit.engine.api.dll",
+        "tools/nunit.engine.api.xml",
+        "tools/nunit.engine.dll",
+        "tools/nunit.nuget.addins",
+        "tools/nunit3-console.exe",
+        "tools/nunit3-console.exe.config"
+      ]
+    },
     "NUnit3TestAdapter/3.15.1": {
       "sha512": "gqy0llGjhJYq9ebFvtbmBcF/MY8z5kcTIxYs+eXwp2d4Ntha8pSPxUzryvBm7H46VbWI6FS5/XNbxwiQpe88vQ==",
       "type": "package",
@@ -14321,6 +14350,7 @@
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Moq >= 4.13.1",
+      "NUnit.ConsoleRunner >= 3.10.0",
       "NUnit3TestAdapter >= 3.15.1",
       "OdeToFood >= 1.0.0",
       "OdeToFood.Data >= 1.0.0",
@@ -14397,6 +14427,10 @@
           "Moq": {
             "target": "Package",
             "version": "[4.13.1, )"
+          },
+          "NUnit.ConsoleRunner": {
+            "target": "Package",
+            "version": "[3.10.0, )"
           },
           "NUnit3TestAdapter": {
             "target": "Package",
