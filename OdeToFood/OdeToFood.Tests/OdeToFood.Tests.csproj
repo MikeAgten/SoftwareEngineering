@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-
+    <IsTestProject>false</IsTestProject>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
@@ -13,7 +13,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.4.0" />
   </ItemGroup>
 
-  <ItemGroup>
+  <ItemGroup>C:\Users\daanp\Desktop\Soft eng azure\SoftwareEngineering\OdeToFood\OdeToFood.Tests\bin\Debug\netcoreapp2.2\OdeToFood.Data.dll
     <ProjectReference Include="..\OdeToFood.Data\OdeToFood.Data.csproj" />
     <ProjectReference Include="..\OdeToFood\OdeToFood.csproj" />
   </ItemGroup>
