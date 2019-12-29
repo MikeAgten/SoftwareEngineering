@@ -7,12 +7,7 @@ namespace OdeToFood.Data.Factories
     {
         public Review Create(EditReviewViewModel editVm)
         {
-<<<<<<< HEAD
             Review review = null;
-=======
-            Review review;
-
->>>>>>> 29f786c762c6c3942826b06e9227fea83a2c2ff4
 
             if (editVm.GetType() == typeof(EditRestaurantReviewViewModel))
             {
@@ -25,11 +20,7 @@ namespace OdeToFood.Data.Factories
                 };
 
             }
-<<<<<<< HEAD
             else if(editVm.GetType() == typeof(EditCafeReviewViewModel))
-=======
-            else
->>>>>>> 29f786c762c6c3942826b06e9227fea83a2c2ff4
             {
                 review = new CafeReview
                 {
