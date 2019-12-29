@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Tests\\OdeToFood.Tests.csproj": {}
+    "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Tests\\OdeToFood.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+    "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+        "projectUniqueName": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
         "projectName": "OdeToFood.Data",
-        "projectPath": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
-        "packagesPath": "C:\\Users\\gille\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\obj\\",
+        "projectPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+        "packagesPath": "C:\\Users\\11500418\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\11500418\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -74,25 +74,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Tests\\OdeToFood.Tests.csproj": {
+    "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Tests\\OdeToFood.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Tests\\OdeToFood.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Tests\\OdeToFood.Tests.csproj",
         "projectName": "OdeToFood.Tests",
-        "projectPath": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Tests\\OdeToFood.Tests.csproj",
-        "packagesPath": "C:\\Users\\gille\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Tests\\obj\\",
+        "projectPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Tests\\OdeToFood.Tests.csproj",
+        "packagesPath": "C:\\Users\\11500418\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\11500418\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -106,11 +106,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
-                "projectPath": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
+              "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+                "projectPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
               },
-              "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {
-                "projectPath": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj"
+              "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {
+                "projectPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj"
               }
             }
           }
@@ -163,25 +163,25 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {
+    "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+        "projectUniqueName": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
         "projectName": "OdeToFood",
-        "projectPath": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
-        "packagesPath": "C:\\Users\\gille\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood\\obj\\",
+        "projectPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+        "packagesPath": "C:\\Users\\11500418\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\gille\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\11500418\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -195,8 +195,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
-                "projectPath": "C:\\Users\\gille\\source\\repos\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
+              "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+                "projectPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
               }
             }
           }
@@ -242,7 +242,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
