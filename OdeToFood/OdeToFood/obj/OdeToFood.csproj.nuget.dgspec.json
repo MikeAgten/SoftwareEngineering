@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {}
+    "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {}
   },
   "projects": {
-    "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+    "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+        "projectUniqueName": "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
         "projectName": "OdeToFood.Data",
-        "projectPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
-        "packagesPath": "C:\\Users\\11500418\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\obj\\",
+        "projectPath": "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj",
+        "packagesPath": "C:\\Users\\daanp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\11500418\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -78,21 +78,21 @@
         }
       }
     },
-    "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {
+    "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+        "projectUniqueName": "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
         "projectName": "OdeToFood",
-        "projectPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
-        "packagesPath": "C:\\Users\\11500418\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood\\obj\\",
+        "projectPath": "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood\\OdeToFood.csproj",
+        "packagesPath": "C:\\Users\\daanp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\11500418\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daanp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -106,8 +106,8 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
-                "projectPath": "C:\\Users\\11500418\\Documents\\school\\software_eng\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
+              "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj": {
+                "projectPath": "C:\\Users\\daanp\\Desktop\\Soft eng azure\\SoftwareEngineering\\OdeToFood\\OdeToFood.Data\\OdeToFood.Data.csproj"
               }
             }
           }
