@@ -28,9 +28,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- script: dotnet test 
-- task: PublishTestResults@2
-  condition: succeededOrFailed()
+- task: VSTest@2
   inputs:
-    testRunner: VSTest
-    testResultsFiles: '**/*.trx'
+    platform: '$(buildPlatform)'
+    configuration: '$(buildConfiguration)'
