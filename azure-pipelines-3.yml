@@ -29,6 +29,3 @@ steps:
     configuration: '$(buildConfiguration)'
 
 - task: reportgenerator@4
-  inputs:
-    reports: '$(Build.SourcesDirectory)\coverage.xml'
-    targetdir: '$(Build.SourcesDirectory)\coveragereport'
