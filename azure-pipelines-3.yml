@@ -28,4 +28,10 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: reportgenerator@4
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: '**/OdeToFood.Tests/*.csproj'
+    arguments: '--configuration $(BuildConfiguration)  /p:CollectCoverage=true  /p:CoverletOutputFormat=cobertura   /p:CoverletOutput=$(Build.SourcesDirectory)\TestResults\Coverage\'
+
+    
