@@ -32,3 +32,10 @@ steps:
   inputs:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+    
+
+
+- task: reportgenerator@4
+  inputs:
+    reports: 'coverage.xml'
+    targetdir: 'coveragereport'
